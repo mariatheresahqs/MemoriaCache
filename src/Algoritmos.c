@@ -1,7 +1,13 @@
-// Temporario - a trabalhar
+// Referencia: GeeksforGeeks-> https://www.geeksforgeeks.org/selection-sort/
 // C program for implementation of selection sort 
 #include <stdio.h> 
-  
+#include <stdlib.h>
+#include "Algoritmos.h"
+
+
+//-------------------------------------------------------------------
+//         SELECTION SORT
+//-------------------------------------------------------------------
 void swap(int *xp, int *yp) 
 { 
     int temp = *xp; 
