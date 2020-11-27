@@ -1,4 +1,5 @@
-// Referencia: GeeksforGeeks-> https://www.geeksforgeeks.org/selection-sort/
+// Referencia: GeeksforGeeks-> https://www.geeksforgeeks.org/selection-sort/ - SELECTION SORT
+// Referencia: GeeksforGeeks-> https://www.geeksforgeeks.org/bubble-sort/ - BUBBLE SORT
 // C program for implementation of selection sort 
 #include <stdio.h> 
 #include <stdlib.h>
@@ -41,15 +42,11 @@ void printArray(int arr[], int size)
         printf("%d ", arr[i]); 
     printf("\n"); 
 } 
-/*
+
 //----------------------------------------------
 //         BUBBLESORT
 //----------------------------------------------
-void swap(int *xp, int *yp){
-    int temp = *xp; 
-    *xp = *yp; 
-    *yp = temp; 
-}
+
 //função Bubblesort
 void bubbleSort(int arr[], int n) 
 { 
@@ -60,14 +57,6 @@ void bubbleSort(int arr[], int n)
        for (j = 0; j < n-i-1; j++)  
            if (arr[j] > arr[j+1]) 
               swap(&arr[j], &arr[j+1]); 
-} 
-
-void printArray(int arr[], int size) 
-{ 
-    int i; 
-    for (i=0; i < size; i++) 
-        printf("%d ", arr[i]); 
-    printf("\n"); 
 } 
 
 //----------------------------------------------
@@ -103,12 +92,3 @@ void quickSort(int arr[], int low, int high)
         quickSort(arr, pi + 1, high); 
     } 
 } 
-
-void printArray(int arr[], int size) 
-{ 
-    int i; 
-    for (i=0; i < size; i++) 
-        printf("%d ", arr[i]); 
-    printf("\n"); 
-} 
-*/
