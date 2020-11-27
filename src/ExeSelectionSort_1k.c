@@ -16,7 +16,6 @@ int main()
     i++;
     }
     fclose(readFile);
-    
     selectionSort(data, TAM); 
     printf("Sorted array: \n"); // temporario
     printArray(data, TAM);  // temporario
