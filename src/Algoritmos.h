@@ -22,5 +22,8 @@ int Particoes(int arr[], int low, int high);
 void quickSort(int arr[], int low, int high);
 void printArray(int arr[], int size);
 
-
+//----------------------------------------------
+//         RADIX SORT
+//----------------------------------------------
+void radixsort(int vetor[], int tamanho);
 #endif
