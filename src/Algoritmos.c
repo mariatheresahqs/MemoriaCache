@@ -1,5 +1,7 @@
 // Referencia: GeeksforGeeks-> https://www.geeksforgeeks.org/selection-sort/ - SELECTION SORT
 // Referencia: GeeksforGeeks-> https://www.geeksforgeeks.org/bubble-sort/ - BUBBLE SORT
+// Referencia: GeeksforGeeks-> https://www.geeksforgeeks.org/quick-sort/ -QUICKSORT
+// Referencia: GeeksforGeeks-> https://pt.wikipedia.org/wiki/Radix_sort#C%C3%B3digo_em_C - Radix Sort
 // C program for implementation of selection sort 
 #include <stdio.h> 
 #include <stdlib.h>
