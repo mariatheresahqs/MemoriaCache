@@ -1,23 +1,22 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "Algoritmos.h"
-//#define TAM 10
+//#define TAM 10000
 
 int main()  
 {  
-    int TAM = 15; // temporario
+    int TAM = 10000; // temporario
     int *data, i=0;
 
     FILE *readFile;
     data = (int *)malloc(TAM*sizeof(int));
-    readFile = fopen("teste1.txt", "r");
+    readFile = fopen("teste10k.txt", "r");
     while(!feof(readFile)){
     fscanf(readFile, "%d", &data[i]);
     i++;
     }
     fclose(readFile);
     
-    //TAM = sizeof(data)/sizeof(data[0]);  // bug - resolver
     selectionSort(data, TAM); 
     printf("Sorted array: \n"); // temporario
     printArray(data, TAM);  // temporario
